@@ -129,7 +129,7 @@
 	define('TEXT_PAYPAL_OUT_BACK', 'Item is no longer in stock. Please click back and refresh the page to update inventory.');
 	define('TEXT_PAYPAL_PLEASE_WAIT', 'Redirecting to PayPal. Please wait... (Can take a few seconds)');
 
-	define('TEXT_GALLERY_NAME', 'Single File PHP Gallery');
+	define('TEXT_GALLERY_NAME', 'Hum Kay Gallery');
 	define('TEXT_BANNER', '');
 	define('TEXT_HOME', 'Home');
 	define('TEXT_CLOSE_IMG_VIEW', 'Close Image');
