@@ -1,3 +1,6 @@
+update-index:
+	lftp -e 'put index.html; bye' -u ebsinfo tommy.heliohost.org/public_html/humkay.com/
+
 update-gallery:
 	lftp -e 'mirror -nR gallery ./; bye' -u ebsinfo tommy.heliohost.org/public_html/humkay.com/
 
