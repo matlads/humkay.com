@@ -4,5 +4,11 @@ update-index:
 update-gallery:
 	lftp -e 'mirror -nR gallery ./; bye' -u ebsinfo tommy.heliohost.org/public_html/humkay.com/
 
+update-img:
+	lftp -e 'mirror -nR img ./; bye' -u ebsinfo tommy.heliohost.org/public_html/humkay.com/
+
+update-doc:
+	lftp -e 'mkdir doc; mirror -nR doc ./; bye' -u ebsinfo tommy.heliohost.org/public_html/humkay.com/
+
 process-files:
 	mogrify -strip -interlace Plane -sampling-factor 4:2:0 -define jpeg:dct-method=float -quality 85% *.jpg
