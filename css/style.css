@@ -1,3 +1,12 @@
 .bg-cinnamon { background-color:#AA6600; }
 .bg-aureolineyellow { background-color: #FFA824; }
 .bg-cheddar { background-color: #FFC469; }
+
+body {
+    color: #212121;
+    font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 0.02em;
+    text-rendering: optimizeLegibility;
+}

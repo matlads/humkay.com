@@ -14,12 +14,12 @@
 	*/
 
 	error_reporting(0);
-	
+
 	//	----------- CONFIGURATION START ------------
 
 	define('GALLERY_ROOT', './');
 	define('DATA_ROOT', './_sfpg_data/');
-	define('SECURITY_PHRASE', '');
+	define('SECURITY_PHRASE', 'IV8DU4ZaOfRlXkAw3TYT1suyE5ri62');
 	define('PASSWORD', '');
 	define('ADMIN', FALSE);
 
@@ -79,7 +79,7 @@
 	define('PREVIEW_MAX_HEIGHT', 400);
 	define('PREVIEW_ENLARGE', FALSE);
 	define('PREVIEW_JPEG_QUALITY', 75);
-	
+
 	define('LOW_IMAGE_RESAMPLE_QUALITY', FALSE);
 	define('KEYBOARD_NAVIGATION', TRUE);
 	define('WATERMARK', '');
@@ -223,7 +223,7 @@
 
 	$color_marked_back = '#ff0000';
 	$color_marked_text = '#000000';
-	
+
 	$color_dir_box_border = '#505050';
 	$color_dir_box_back = '#000000';
 	$color_dir_box_text = '#aaaaaa';
@@ -489,7 +489,7 @@
 				{
 					$new_img_width = $mpo_full_width;
 					$stereo_align = (int)(($mpo_full_width-($mpo_stereo_width*2+MPO_SPACING))/2);
-					$full_offset_x = 0;					
+					$full_offset_x = 0;
 				}
 				$new_img_height += $mpo_full_height;
 			}
@@ -748,7 +748,7 @@
 				$image_path_file = GALLERY_ROOT.$image_dir.$image_file;
 			}
 			if ($download)
-			{		
+			{
 				header('Content-Type: application/octet-stream');
 				header('Content-Disposition: attachment; filename="'.$image_file.'"');
 			}
@@ -1260,7 +1260,7 @@
 		var viewportHeight;
 		var imgFullWidth;
 		var imgFullHeight;
-		
+
 		var selectedDirs = [];
 		var selectedImages = [];
 		var selectedFiles = [];
@@ -1985,7 +1985,7 @@
 			var currentTime = new Date().getTime();
 			var frac = (currentTime - element.timeStart) / (element.timeEnd - element.timeStart);
 			if (frac >= 1)
-			{	
+			{
 				setOpacity(id, element.opacityEnd);
 				if (element.opacityEnd == 0)
 				{
@@ -2564,7 +2564,7 @@
 				{
 					content += '<br><br>".sts(TEXT_NO_PREVIEW_FILE)."';
 				}
-				content += '</div>'; 
+				content += '</div>';
 				". (THUMB_CHARS_MAX ? "content += thumbDisplayName(fileName[elementNumber]);" : "")."
 				content += '</div>';
 			}
@@ -2897,7 +2897,7 @@
 		{
 			$phrase=sfpg_random(30);
 			$nr_replace=0;
-			$sc=str_replace("define('SECURITY"."_PHRASE', '');","define('SECURITY_PHRASE', '".$phrase."');",$sc,$nr_replace);			
+			$sc=str_replace("define('SECURITY"."_PHRASE', '');","define('SECURITY_PHRASE', '".$phrase."');",$sc,$nr_replace);
 			if ($nr_replace === 1)
 			{
 				if (file_put_contents($_SERVER['SCRIPT_FILENAME'],$sc))
@@ -3329,14 +3329,14 @@
 		padding:1px 4px 1px 4px;
 		width:200px;
 	}
-	
+
 	.loading
 	{
 		padding:20px 20px 20px 20px;
 		margin-right:auto;
 		margin-left:auto;
 	}
-	
+
 	.sfpg_button, .sfpg_button_hover, .sfpg_button_on, .sfpg_button_nav, .sfpg_button_disabled
 	{
 		".(ROUND_CORNERS?'border-radius:'.ROUND_CORNERS.'px;':'')."
@@ -3404,7 +3404,7 @@
 	{
 		width:".((2 * (THUMB_BORDER_WIDTH + THUMB_MARGIN)) + THUMB_MAX_WIDTH)."px;
 		height:".((THUMB_BORDER_WIDTH * 2) + THUMB_MARGIN + THUMB_MAX_HEIGHT + 6)."px;
-		margin:0px; 
+		margin:0px;
 		padding:0px;
 	}
 
@@ -3612,7 +3612,7 @@
 		$sell=@file(GALLERY_ROOT.GALLERY.IMAGE.PAYPAL_EXTENSION,FILE_IGNORE_NEW_LINES);
 		if (($sell==false) or ($sell[1]<1))
 		{
-			echo '<body>'.TEXT_PAYPAL_OUT_BACK.'</body>'; 
+			echo '<body>'.TEXT_PAYPAL_OUT_BACK.'</body>';
 		}
 		else
 		{
