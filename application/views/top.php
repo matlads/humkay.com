@@ -29,7 +29,20 @@
         <!-- CSS -->
         <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.min.css">
-        <link rel="stylesheet" href="/css/style.css">
+        <style>
+            .bg-cinnamon { background-color:#AA6600; }
+            .bg-aureolineyellow { background-color: #FFA824; }
+            .bg-cheddar { background-color: #FFC469; }
+
+            body {
+                color: #212121;
+                font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                letter-spacing: 0.02em;
+                text-rendering: optimizeLegibility;
+            }
+        </style>
 
         <!-- Google Adsense -->
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
