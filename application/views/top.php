@@ -27,8 +27,8 @@
         <link rel="image_src" href="/img/header-background.jpg" />
 
         <!-- CSS -->
-        <link rel="stylesheet" href="/css/font-awesome.min.css">
-        <link rel="stylesheet" href="/css/tachyons.min.css">
+        <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.min.css">
         <link rel="stylesheet" href="/css/style.css">
 
         <!-- Google Adsense -->
