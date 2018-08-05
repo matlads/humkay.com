@@ -1,7 +1,7 @@
 <a id='profile'></a>
 <article  class='bg-light-red'>
     <div class="pa4">
-        <div class="fw3">Profile</div>
+        <div class="fw3"><h2>Profile</h2></div>
         <div class="flex-ns h-50 items-center">
             <div class="">
                 <img class="w-100" alt="Hum Kay Profile picture" src="/img/profile.jpg">
