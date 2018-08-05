@@ -20,7 +20,7 @@ class Pages extends CI_Controller {
     public function events() {
 
         $this->load->database();
-        $query = $this->db->query("SELECT date, name, location FROM events WHERE date > DATE('now')");
+        $query = $this->db->query("SELECT date, name, location FROM events WHERE date > NOW()");
         $data['events'] = $query->result_array();
 
         $this->load->view('top');
