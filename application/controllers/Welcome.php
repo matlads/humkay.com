@@ -20,11 +20,17 @@ class Welcome extends CI_Controller {
      */
     public function index()
     {
-        # $this->load->view('welcome_message');
+        $this->load->database();
+        $this->load->helper('text');
+
+        $query = $this->db->query("SELECT date, name, location FROM events WHERE date > DATE('now')");
+        $data['events'] = $query->result_array();
+
         $this->load->view('top');
         $this->load->view('nav');
         $this->load->view('old_index');
-        $this->load->view('events');
+        $this->load->view('events', $data);
+        $this->load->view('short_profile');
         $this->load->view('bottom');
     }
 }
