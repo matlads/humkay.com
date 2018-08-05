@@ -1,3 +1,6 @@
+# Env
+SetEnv ENVIRONMENT "production"
+
 # Cache
 ExpiresActive On
 ExpiresDefault A0
