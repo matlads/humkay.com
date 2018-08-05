@@ -32,7 +32,7 @@
                     -->
 
                     <div class="mw6 ph5">
-                        <img src="/img/worship_summit.jpg">
+                        <img src="/img/worship_summit.png">
                     </div>
                     <div class="tc tl-ns ph3">
                         <h1 class="f3 f1-l fw2 mb3 mt4 mt0-ns">Worship&nbsp;Ministers’&nbsp;Summit</h1>
