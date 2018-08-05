@@ -24,6 +24,7 @@ class Welcome extends CI_Controller {
         $this->load->view('top');
         $this->load->view('nav');
         $this->load->view('old_index');
+        $this->load->view('events');
         $this->load->view('bottom');
     }
 }
