@@ -1,5 +1,5 @@
 # Env
-SetEnv ENVIRONMENT "production"
+SetEnv CI_ENV production
 
 # Cache
 ExpiresActive On
