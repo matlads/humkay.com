@@ -11,6 +11,8 @@
 	writer &amp; discourse analyst; with 7 years’ experience as a University Lecturer
 	in Communication Studies.</p>
 
+    <p> <img class="w-50 center" alt="Hum Kay Profile Picture" src="/img/profile.jpg"> </p>
+
 	<p>
 	With over a decade of local and international practice in Art and Ministry, Hum
 	Kay has shared platforms with numerous bands and artists - both local and
@@ -49,8 +51,7 @@
 	<p>
 	As a Peace Advocate, Hum Kay has conducted numerous peace activations in
 	collaboration with Pure Love Uganda, The IRCU, <a href="http://www.ubumuntuartsfestival.com/News/article/Ubumuntu-Arts-Festival-shares-the-value-of-forgiveness-and-sustainable-peace">The Ubumuntu International Festival For Humanity</a>
-	
-	and also served as a community Peace Ambassador for Peace One Day (UK) 
+	and also served as a community Peace Ambassador for Peace One Day (UK)
 	</p>
 </div>
 </article>
