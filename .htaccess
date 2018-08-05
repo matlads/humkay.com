@@ -43,3 +43,9 @@ ExpiresDefault A0
 <FilesMatch ".(js|css)$">
   Header append Vary: Accept-Encoding
 </FilesMatch>
+
+<IfModule mod_rewrite>
+    RewriteEngine on
+    RewriteCond $1 !^(index\.php|fonts|images|img|css|doc|gallery|robots\.txt)
+    RewriteRule ^(.*)$ /index.php/$1 [L]
+</IfModule>
