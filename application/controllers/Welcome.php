@@ -26,11 +26,11 @@ class Welcome extends CI_Controller {
         $query = $this->db->query("SELECT date, name, location FROM events WHERE date > NOW();");
         $data['events'] = $query->result_array();
 
-        $this->load->view('top');
-        $this->load->view('nav');
-        $this->load->view('old_index');
-        $this->load->view('events', $data);
-        $this->load->view('short_profile');
-        $this->load->view('bottom');
+        $this->load->view('tachyons/top');
+        $this->load->view('tachyons/nav');
+        $this->load->view('tachyons/old_index');
+        $this->load->view('tachyons/events', $data);
+        $this->load->view('tachyons/short_profile');
+        $this->load->view('tachyons/bottom');
     }
 }
