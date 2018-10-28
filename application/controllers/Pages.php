@@ -36,4 +36,12 @@ class Pages extends CI_Controller {
         $this->load->view('tachyons/school_of_worship');
         $this->load->view('tachyons/bottom');
     }
+
+    public function sitemap(){
+        $this->load->view('tachyons/top');
+        $this->load->view('tachyons/nav');
+        $this->load->view('tachyons/sitemap');
+        $this->load->view('tachyons/bottom');
+    }
+
 }

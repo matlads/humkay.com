@@ -31,14 +31,20 @@
 
                     </section>
 
-                    <div class="db dn-ns">
-                        <p class="f7 black-70 mt4 tc">
-                        Copyright © EBS <a href='http://ebsug.com'>ebsug.com</a> 2018
-                        </p>
-                    </div>
 
                 </footer>
 
+				<div class="tc">
+					<hr class="black-20"/>
+					<p>
+						<a href="/">Home Page</a> |
+						<a href="/pages/store">Store</a> |
+						<a href="/pages/sitemap">Sitemap</a>
+					</p>
+					<p class="f8 black-70 mt4 tc">
+						Copyright © EBS <a href='http://ebsug.com'>ebsug.com</a> 2018. All rights reserved
+					</p>
+				</div>
                 <!-- Global site tag (gtag.js) - Google Analytics -->
                 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122521577-1"></script>
                 <script>
