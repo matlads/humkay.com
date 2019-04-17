@@ -23,7 +23,7 @@ class Welcome extends CI_Controller {
         $this->load->database();
         $this->load->helper('text');
 
-        $query = $this->db->query("SELECT date, name, location FROM events WHERE date > NOW();");
+        $query = $this->db->query("SELECT id, date, name, location FROM events WHERE date > NOW();");
         $data['events'] = $query->result_array();
 
         $this->load->view('tachyons/top');
